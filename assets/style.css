@@ -1,0 +1,29 @@
+/*COLOR PALLET*/
+root{
+color: #17181f;
+color: #6c72cb;
+color: #cb69c1;
+color: #eeedf0
+}
+
+/*Google Fonts Import*/
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gaegu&display=swap');
+
+
+body{
+    background-color:#17181f;
+    color: #eeedf0;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Gaegu', cursive;
+    color: #6c72cb;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px #3c3f6d;
+}
+
+.menu-toggle{
+    color: #6c72cb;
+    text-shadow: 2px 2px 5px #3c3f6d;
+}
