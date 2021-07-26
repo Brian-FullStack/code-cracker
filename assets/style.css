@@ -27,3 +27,29 @@ body{
     color: #6c72cb;
     text-shadow: 2px 2px 5px #3c3f6d;
 }
+
+/*GAME AREA*/
+.game-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 33%;
+}
+
+.game-button{
+    width: 32%;
+    padding-bottom: 30%;
+    margin-bottom: 2%;
+    position: relative;
+    border: 2px solid #cb69c1;
+    border-radius: 50%;
+}
+
+.game-button-2{
+    width: 32%;
+    padding-bottom: 30%;
+    margin-bottom: 2%;
+    position: relative;
+    border: 2px solid green;
+    border-radius: 50%;
+}
