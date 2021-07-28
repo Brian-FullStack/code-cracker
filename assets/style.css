@@ -75,12 +75,42 @@ body{
 /*START AND RESET BUTTONS*/
 .start-reset{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 2em;
-    margin-left: 6em;
-    margin-right: 6em;
 }
 
+#startButton{
+    margin-right: 15rem;
+}
+
+/**************************************************HOW-TO-PLAY.HTML**/
+#how-to-header{
+    text-align: center;
+}
+
+.instructions-container{
+ border: 1px solid #6c72cb;
+ padding: 2rem;
+ margin: 5rem;
+}
+
+.game-instructions{
+    
+    justify-content: center;
+    text-align: left;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 150%;
+}
+
+.game-settings{
+    display: flex;
+    justify-content: center;
+}
+
+#start-game{
+    margin-left: 15rem;
+}
+/**************************************************FOOTER**/
 footer{
     text-align: center;
 }
