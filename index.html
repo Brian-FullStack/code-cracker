@@ -16,6 +16,7 @@
     <title>Code Cracker</title>
 </head>
 <body>
+  <!--------------------------------------------NAVBAR-->
 <header>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -26,10 +27,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto ">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">How to Play</a>
+                <a class="nav-link active" href="how-to-play.html">How to Play</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Game</a>
+                <a class="nav-link" aria-current="page" href="index.html">Game</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
@@ -42,11 +43,19 @@
         </div>
       </nav>
 </header>
-<div class="score">
-    score
-    lives
-    difficulty
+<!--------------------------------------------GAME RESULTS AREA-->
+<div class="game-results-area">
+  <div class="score-area">
+      <p class="score">Score <span id="score-result">0</span></p>
+  </div>
+  <div class="difficulty-area">
+    <p id="difficulty">Easy</p>
+  </div>
+  <div class="lives-area">
+    <p class="lives">Lives <span id="lives-result">0</span></p>
+  </div>
 </div>
+<!--------------------------------------------------GAME AREA BUTTONS-->
 <div class="container game-area">
   <div class="game-button"></div>
   <div class="game-button"></div>
@@ -58,13 +67,16 @@
   <div class="game-button"></div>
   <div class="game-button"></div>
 </div>
-<div>
-    start
-    reset
+<!--------------------------------------------------START/RESET BUTTONS-->
+<div class="start-reset">
+    <button type="button" class="btn btn-primary" id="startButton">Start</button>
+    <button type="button" class="btn btn-primary" id="resetButton">Reset</button>
 </div>
 <footer>
-    social media
-    copyright
+    <div class="social">
+      <a href="#"><i class="fab fa-facebook-square"></i></a>
+      <a href="#"><i class="fab fa-instagram-square"></i></a>
+    </div>
 </footer>
     
 <script></script>
