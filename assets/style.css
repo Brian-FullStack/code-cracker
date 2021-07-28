@@ -3,7 +3,7 @@ root{
 color: #17181f;
 color: #6c72cb;
 color: #cb69c1;
-color: #eeedf0
+color: #eeedf0;
 }
 
 /*Google Fonts Import*/
@@ -28,6 +28,33 @@ body{
     text-shadow: 2px 2px 5px #3c3f6d;
 }
 
+/*GAME RESULTS AREA*/
+.game-results-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.score{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 250%;
+    color: #eeedf0;
+}
+
+#difficulty{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 250%;
+    color: #eeedf0;
+}
+
+.lives{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 250%;
+    color: #eeedf0;
+}
+
 /*GAME AREA*/
 .game-area{
     display: flex;
@@ -45,11 +72,20 @@ body{
     border-radius: 50%;
 }
 
-.game-button-2{
-    width: 32%;
-    padding-bottom: 30%;
-    margin-bottom: 2%;
-    position: relative;
-    border: 2px solid green;
-    border-radius: 50%;
+/*START AND RESET BUTTONS*/
+.start-reset{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+footer{
+    text-align: center;
+}
+
+.social a{
+    font-size: 2rem;
+    color: #cb69c1;
 }
