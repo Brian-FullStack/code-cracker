@@ -91,7 +91,9 @@ body{
 .instructions-container{
  border: 1px solid #6c72cb;
  padding: 2rem;
- margin: 5rem;
+ margin: 5rem auto 5rem auto;
+ width: 65%;
+
 }
 
 .game-instructions{
