@@ -1,0 +1,161 @@
+/*COLOR PALLET*/
+root{
+color: #17181f;
+color: #6c72cb;
+color: #cb69c1;
+color: #eeedf0;
+}
+
+/*Google Fonts Import*/
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gaegu&display=swap');
+
+
+body{
+    background-image: radial-gradient(#353741,#17181f);
+    color: #eeedf0;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Gaegu', cursive;
+    color: #6c72cb;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px #3c3f6d;
+}
+
+.navbar-nav{
+    margin-top: 1.5rem;
+    margin-left: 35rem;
+}
+
+.navbar-nav a{
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    color: #6c72cb;
+}
+
+
+.menu-toggle{
+    color: #6c72cb;
+    text-shadow: 2px 2px 5px #3c3f6d;
+}
+
+/*GAME RESULTS AREA*/
+.game-results-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.score{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 250%;
+    color: #eeedf0;
+}
+
+#difficulty{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 250%;
+    color: #eeedf0;
+}
+
+.lives{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 250%;
+    color: #eeedf0;
+}
+
+/*GAME AREA*/
+.game-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 33%;
+}
+
+.game-button{
+    width: 32%;
+    padding-bottom: 30%;
+    margin-bottom: 2%;
+    position: relative;
+    border: 2px solid #cb69c1;
+    border-radius: 50%;
+    background-color: #cb69c1;
+}
+
+/*START AND RESET BUTTONS*/
+.start-reset{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+#startButton{
+    margin-right: 15rem;
+}
+
+/**************************************************HOW-TO-PLAY.HTML**/
+#how-to-header{
+    text-align: center;
+}
+
+.instructions-container{
+ border: 1px solid #6c72cb;
+ padding: 2rem;
+ margin: 5rem auto 5rem auto;
+ width: 55%;
+
+}
+
+.game-instructions{
+    
+    justify-content: center;
+    text-align: left;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 150%;
+}
+
+.game-settings{
+    display: flex;
+    justify-content: center;
+}
+
+select[id=set-difficulty]{
+    background: transparent;
+    border: none;
+    border-bottom: #6c72cb;
+}
+
+#start-game{
+    margin-left: 15rem;
+}
+
+/****************************************************LOGIN PAGE**/
+.login-header{
+    text-align: center;
+}
+
+.login-container{
+    border: 2px solid #cb69c1;
+    border-radius: 5px;
+    width: 55%;
+    padding: 2rem;
+    margin: 3rem auto 5rem auto;
+}
+
+input[type=text]{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #6c72cb;
+}
+/**************************************************FOOTER**/
+footer{
+    text-align: center;
+}
+
+.social a{
+    font-size: 2rem;
+    color: #cb69c1;
+}
