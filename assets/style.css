@@ -12,6 +12,7 @@ color: #eeedf0;
 
 body{
     background-color:#17181f;
+    background-image: radial-gradient(#353741,#17181f);
     color: #eeedf0;
     font-family: 'Do Hyeon', sans-serif;
 }
@@ -22,6 +23,18 @@ body{
     font-size: 50px;
     text-shadow: 2px 2px 5px #3c3f6d;
 }
+
+.navbar-nav{
+    margin-top: 1.5rem;
+    margin-left: 35rem;
+}
+
+.navbar-nav a{
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    color: #6c72cb;
+}
+
 
 .menu-toggle{
     color: #6c72cb;
@@ -70,6 +83,7 @@ body{
     position: relative;
     border: 2px solid #cb69c1;
     border-radius: 50%;
+    background-color: #cb69c1;
 }
 
 /*START AND RESET BUTTONS*/
